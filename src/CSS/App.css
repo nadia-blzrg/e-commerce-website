@@ -1,0 +1,40 @@
+/* Styles de base */
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: gray;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+/* Styles pour les différentes sections */
+.home {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 0px;
+  width: 100%;
+  max-width: 1200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.courses, .product, .onlignCourses, .faceToFaceCourses {
+  background-color: #f8f8f8;
+  padding: 0px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour la page NotFound */
+.notfound {
+  color: red;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0px;
+}

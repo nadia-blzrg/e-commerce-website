@@ -1,0 +1,139 @@
+/* Navbar Styling */
+.NavStyle {
+  background-color: #333;
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+/* Liens du menu */
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.nav a:hover {
+  background: #555;
+}
+
+.nav a.active {
+  background: #007bff;
+  color: white;
+}
+
+/* Icône Panier */
+.cart-icon {
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.cart-count {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 2px 6px;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+}
+
+/* Dropdown Panier */
+.cart-dropdown {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  background: white;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 200px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.checkout-btn {
+  display: block;
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* Menu Burger */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}

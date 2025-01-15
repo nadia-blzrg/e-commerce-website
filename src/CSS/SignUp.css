@@ -1,0 +1,97 @@
+/* Style pour le conteneur de la page d'inscription */
+
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-container h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles pour les champs de formulaire */
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .signup-container .form-group  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+  }
+  
+ .signup-container .form-group input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Bouton d'inscription classique */
+  .social-signup button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-signup  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Message d'erreur */
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Style pour les boutons de réseaux sociaux */
+  .social-signup {
+    margin-top: 20px;
+  }
+  
+  .social-signup button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .facebook-btn {
+    background-color: #3b5998; /* Couleur Facebook */
+    color: white;
+  }
+  
+  .facebook-btn:hover {
+    background-color: #2d4373;
+  }
+  
+  .google-btn {
+    background-color: #db4437; /* Couleur Google */
+    color: white;
+  }
+  
+  .google-btn:hover {
+    background-color: #c1351d;
+  }
+  
